@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
 
 :root {
@@ -31,6 +30,4 @@ body {
   border-radius: 4px;
   padding: 16px;
   display: grid;
-
 }
-
