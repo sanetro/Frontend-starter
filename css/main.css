@@ -2,9 +2,9 @@
 
 :root {
   --text-color: #4D4D4D;
-  --background-color: #FFF4E0;
-  --primary-accent-color: #B46060;
-  --secondary-accent-color: hsl(22, 100%, 92%);
+  --background-color: #ffffff;
+  --primary-accent-color: #000000;
+  --secondary-accent-color: hsl(0, 14%, 96%);
 }
 
 * {
@@ -28,7 +28,6 @@
 
 .card {
   width: 800px;
-  min-height: 600px;
   border: var(--primary-accent-color) solid 4px;
   border-radius: 8px;
   background-color: var(--secondary-accent-color);
@@ -70,4 +69,15 @@
 .card-main > p {
   align-self: flex-end;
   font-size: .9rem;
+}
+@media (max-width: 800px) {
+  .card {
+    width: initial;
+    grid-template-rows: 1fr 2.5fr;
+    grid-template-columns: none;
+  }
+  .card-image {
+    border-radius: 4px 4px 0 0;
+  }
+
 }
