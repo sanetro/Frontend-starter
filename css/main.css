@@ -48,4 +48,26 @@
 
 .card-main {
   padding: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-main > h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+. > article > img {
+  width: 200px;
+}
+
+.card-main > article > p::before {
+  margin-right: 2em;
+  content: "";
+}
+
+.card-main > p {
+  align-self: flex-end;
+  font-size: .9rem;
 }
